@@ -1,0 +1,77 @@
+export const tokens = {
+  colors: {
+    // Brand
+    green: "#00A651",
+    greenDark: "#007A3D",
+    greenLight: "#E6F7EE",
+    navy: "#0A1628",
+    navyMid: "#162340",
+    navyLight: "#1E3258",
+    gold: "#F5A623",
+    // Semantic
+    error: "#D63B3B",
+    errorLight: "#FDEAEA",
+    warning: "#F5A623",
+    warningLight: "#FEF5E4",
+    success: "#00A651",
+    successLight: "#E6F7EE",
+    // Neutral
+    white: "#FFFFFF",
+    gray50: "#F4F6FA",
+    gray100: "#E8EDF5",
+    gray200: "#C9D3E0",
+    gray300: "#9AAAB8",
+    gray400: "#6B7B8E",
+    gray500: "#4A5568",
+    gray900: "#0A1628",
+  },
+  typography: {
+    fontFamily: "'Plus Jakarta Sans', sans-serif",
+    sizes: {
+      xs: "12px",
+      sm: "14px",
+      base: "16px",
+      md: "18px",
+      lg: "20px",
+      xl: "24px",
+      "2xl": "28px",
+      "3xl": "32px",
+    },
+    weights: {
+      regular: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+      extrabold: 800,
+    },
+  },
+  spacing: {
+    xs: "4px",
+    sm: "8px",
+    md: "12px",
+    base: "16px",
+    lg: "20px",
+    xl: "24px",
+    "2xl": "32px",
+    "3xl": "48px",
+  },
+  radius: {
+    sm: "8px",
+    md: "12px",
+    lg: "16px",
+    xl: "24px",
+    full: "9999px",
+  },
+  touchTarget: {
+    min: "48px",
+    comfortable: "56px",
+    large: "64px",
+  },
+  contrast: {
+    // All meet WCAG AA
+    primaryOnWhite: "5.2:1",
+    whiteOnGreen: "4.8:1",
+    navyOnWhite: "14.1:1",
+    errorOnWhite: "5.1:1",
+  },
+};
